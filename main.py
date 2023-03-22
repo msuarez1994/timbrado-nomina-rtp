@@ -392,14 +392,6 @@ now = datetime.now()
 
 print("Digite el nombre del archivo")
 
-dir_path = r'fileprueba/'
-res = []
-
-""" for (dir_path, dir_names, file_names) in walk(dir_path):
-    res.extend(file_names)
-print(res)
- """
- 
 file = "fileprueba/" + input() + ".xlsx"
 #file = "fileprueba/RTP0001071K1-I1010A10PDRT-B42_20-00-.xlsx" 
 cut = file.split('-', 2)
