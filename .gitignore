@@ -1,4 +1,4 @@
-out/*
-fileprueba/*
+out/**
+fileprueba/*.xls
 clases/__pycache__
 .DS_Store
